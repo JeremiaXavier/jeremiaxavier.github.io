@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style1.css">
+    <title>sign up</title>
+    <script src="https://kit.fontawesome.com/692d1fc81c.js" crossorigin="anonymous"></script>
+<style>*{
+    margin: 0;
+    padding: 0;
+    font-family:'poppins',sans-serif;
+    box-sizing: border-box;
+
+}
+.hero {
+width: 100%;
+min-height: 100vh;
+background:#292929;
+display: flex;
+align-items: center;
+justify-content:center;
+flex-direction: column;
+}
+.hero h1
+{
+color: #fff;
+font-weight: 500;
+margin-bottom: 40px;
+
+}
+.signup-box
+{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 90%;
+    max-width: 800px;
+    background: rgb(236, 240, 211);
+
+}
+.left-box
+{
+    padding: 50px;
+    background:#80210e;
+    flex-basis: 50%;
+    flex-grow: 1;
+    color:#fff;
+}
+.right-box {
+    padding: 50px;
+    flex-basis: 50%
+   
+}
+.input-box
+{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #fff;
+    outline:none;
+    color: #fff;
+    font-size: 12px;
+    background: transparent;
+}
+::placeholder{
+    color: #fff;
+}
+input[type=checkbox]{
+    margin-top: 30px;
+
+}
+.left-box label {
+font-size: 14px;
+}
+.left-box button {
+    width: 100%;
+    background: #fff;
+    padding: 10px;
+    border: 0;
+    outline: none;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+transition: background 0.5s;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+.left-box button:hover {
+font-weight:500;
+background:black;
+color:#fff;
+}
+.left-box button span {
+    display: inline-block;
+    width: 0px;
+    overflow: hidden;
+transition: width 0.5s;
+}
+.left-box button:hover span {
+   
+    width:30px;
+}
+.right-box a {
+    display: block;
+    width:100%;
+    margin: 20px 0;
+    min-width: 250px;
+    color: #fff;
+    font-size: 14px;
+    padding: 15px 30px;
+    text-decoration: none;
+  
+}
+.right-box a i {
+    font-size: 18px;
+    margin-right: 10px;
+
+}
+.fb-link {
+    background: #1778f2;
+}
+.tw-link {
+    background: #1da1f2;
+}
+.g-link {
+    background: #ea4335;
+}
+.login-message {
+    color: #fff;
+    margin-top: 30px;
+    font-size: 15px;
+
+}
+.login-message a {
+    color: #af271a;
+    text-decoration: none;
+    
+}
+</style>
+</head>
+<body>
+
+
+    
+    <div class="hero">
+        <h1> Create an account </h1>
+       <div class="signup-box">
+           <div class="left-box">
+              <form onsubmit="return passcheck()">
+                 <input type="text" placeholder="Your name" required class="input-box">
+                 <input type="text" placeholder="username" required class="input-box">
+                 <input type="email" placeholder="Your email id" required class="input-box">
+                 <input type="password" placeholder="Create password" id="password" required class="input-box">
+                 <input type="checkbox"  id="terms">
+                 <label for="terms">I accept the terms & condition </label>
+                 <button type="submit" value="submit">SIGN UP<span>&#x27f6;</span></button>
+           </form>
+        </div>
+    <div class="right-box">
+        <a href="https://www.facebook.com" class="fb-link"><i class="fa-brands fa-facebook-f"></i>connect with facebook</a>
+        <a href="https://www.twitter.com" class="tw-link"><i class="fa-brands fa-twitter"></i>connect with twitter</a>
+        <a href="https://www.google.com/accounts" class="g-link"><i class="fa-brands fa-google"></i>connect with google</a>
+    </div>
+
+</div>
+<p class="login-message"> I already have an account? <a href="" > Login Now</a></p>
+</div>
+
+
+
+
+</body>
+</html>
