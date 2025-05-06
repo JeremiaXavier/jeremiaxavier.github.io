@@ -1,0 +1,78 @@
+{
+    "locales": {
+        "en": {
+            "title": "Education",
+            "title_long_prefix": "This is my",
+            "title_long": "**Educational** Background"
+        },
+
+        "es": {
+            "title": "Educación",
+            "title_long_prefix": "Esta es mi",
+            "title_long": "**Formación** Educativa"
+        },
+
+        "fr": {
+            "title": "Éducation",
+            "title_long_prefix": "C'est mon",
+            "title_long": "**Contexte** Éducatif"
+        },
+
+        "ko": {
+            "title": "교육",
+            "title_long_prefix": "이것은 내",
+            "title_long": "**교육적** 배경"
+        }
+    },
+
+    "articles": [
+        {
+            "id": "academic",
+            "component": "ArticleTimeline",
+            "config": {},
+            "locales": {},
+
+            "items": [
+                {
+                    "icon": {
+                        "img": "images/pictures/MGU.jpg",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "dates": {
+                        "start": "09/12/2022",
+                        "end": "03/31/2025"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**Bachelor** of Computer Application",
+                            "info": "MGU",
+                            "text": "<p>Graduated with a Bachelor's degree focused on the fundamentals of computer applications, including:</p> <ul><li>Software Development</li><li>Database Management</li><li>Web Technologies</li></ul> <p class='mt-3'>Gained a solid foundation in programming principles and practical application development.</p>",
+                            "tags": ["Software Development", "Database", "Web Technologies", "Programming"]
+                        },
+                        "es": {
+                            "title": "**Bachillerato** en Aplicaciones Informáticas",
+                            "info": "MGU",
+                            "text": "<p>Graduado con un bachillerato centrado en los fundamentos de las aplicaciones informáticas, incluyendo:</p> <ul><li>Desarrollo de Software</li><li>Gestión de Bases de Datos</li><li>Tecnologías Web</li></ul> <p class='mt-3'>Obtuve una base sólida en los principios de programación y el desarrollo práctico de aplicaciones.</p>",
+                            "tags": ["Desarrollo de Software", "Base de Datos", "Tecnologías Web", "Programación"]
+                        },
+                        "fr": {
+                            "title": "**Licence** en Applications Informatiques",
+                            "info": "MGU",
+                            "text": "<p>Diplômé d'une licence axée sur les fondamentaux des applications informatiques, incluant:</p> <ul><li>Développement de Logiciels</li><li>Gestion de Bases de Données</li><li>Technologies Web</li></ul> <p class='mt-3'>Acquis une base solide dans les principes de programmation et le développement pratique d'applications.</p>",
+                            "tags": ["Développement de Logiciels", "Base de Données", "Technologies Web", "Programmation"]
+                        },
+                        "ko": {
+                            "title": "컴퓨터 응용 **학사**",
+                            "info": "MGU",
+                            "text": "<p>소프트웨어 개발, 데이터베이스 관리, 웹 기술을 포함한 컴퓨터 응용 분야의 기초에 중점을 둔 학사 학위를 취득했습니다.</p> <ul><li>소프트웨어 개발</li><li>데이터베이스 관리</li><li>웹 기술</li></ul> <p class='mt-3'>프로그래밍 원리와 실제 애플리케이션 개발에 대한 탄탄한 기반을 마련했습니다.</p>",
+                            "tags": ["소프트웨어 개발", "데이터베이스", "웹 기술", "프로그래밍"]
+                        }
+                    }
+                }
+
+                
+            ]
+        }
+    ]
+}

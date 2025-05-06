@@ -1,0 +1,318 @@
+{
+    "locales": {
+        "en": {
+            "title": "Welcome!",
+            "title_menu": "About me",
+            "title_long_prefix": "Hello...",
+            "title_long": "I'm **Jeremia Xavier!**"
+        },
+        "es": {
+            "title": "¡Saludos!",
+            "title_menu": "Sobre mí",
+            "title_long_prefix": "Hola...",
+            "title_long": "Soy **Jeremia Xavier!**"
+        },
+        "fr": {
+            "title": "Salut !",
+            "title_menu": "À propos",
+            "title_long_prefix": "Salut...",
+            "title_long": "Je suis **Jeremia Xavier!**"
+        },
+        "ko": {
+            "title": "환영합니다!",
+            "title_menu": "소개",
+            "title_long_prefix": "안녕하세요...",
+            "title_long": "저는 **Jeremia Xavier** 입니다!"
+        }
+    },
+    "articles": [
+        {
+            "id": "contact_list",
+            "component": "ArticleGrid",
+            "config": {
+                "ignorePaddingTop": true,
+                "format": "inline"
+            },
+            "locales": {
+                "en": {},
+                "es": {},
+                "fr": {},
+                "ko": {}
+            },
+            "items": [
+                {
+                    "value": "Kerala – IN",
+                    "links": [
+                        {
+                            "href": null
+                        }
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-city",
+                        "faColors": {
+                            "bg": null,
+                            "fill": null
+                        }
+                    }
+                },
+                {
+                    "value": "mail.jeremiaxavier@gmail.com",
+                    "links": [
+                        {
+                            "href": "mailto:mail.jeremiaxavier@gmail.com"
+                        }
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-envelope",
+                        "faColors": {
+                            "bg": null,
+                            "fill": null
+                        }
+                    }
+                },
+                {
+                    "value": "@jeremiaxavier",
+                    "links": [
+                        {
+                            "href": "https://github.com/JeremiaXavier"
+                        }
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-github",
+                        "faColors": {
+                            "bg": null,
+                            "fill": null
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "short_description",
+            "component": "ArticleInfoBlock",
+            "config": {},
+            "locales": {
+                "en": {
+                    "title": "**A little bit** about me..."
+                },
+                "es": {
+                    "title": "**Un poco** sobre mí..."
+                },
+                "fr": {
+                    "title": "**Un peu** à propos de moi..."
+                },
+                "ko": {
+                    "title": "저에 **대해 조금**..."
+                }
+            },
+            "items": [
+                {
+                    "icon": {
+                        "img": "images/svg/logo.svg",
+                        "fa": null,
+                        "faColors": {
+                            "bg": null,
+                            "fill": null
+                        }
+                    },
+                    "locales": {
+                        "en": {
+                            "text": "<p>A MERN stack developer with <b>two years</b> of hands-on web development experience, proficient in MongoDB, Express.js, React, and Node.js. I specialize in building robust, scalable, and high-performance web applications, with a keen eye for detail and a commitment to delivering exceptional user experiences.</p>"
+                        },
+                        "es": {
+                            "text": "<p>Desarrollador MERN con <b>dos años</b> de experiencia práctica en desarrollo web, con dominio de MongoDB, Express.js, React y Node.js. Me especializo en la construcción de aplicaciones web robustas, escalables y de alto rendimiento, con un gran enfoque en el detalle y un compromiso para ofrecer experiencias de usuario excepcionales.</p>"
+                        },
+                        "fr": {
+                            "text": "<p>Développeur MERN avec <b>deux ans</b> d'expérience pratique en développement web, maîtrisant MongoDB, Express.js, React et Node.js. Je suis spécialisé dans la création d'applications web robustes, évolutives et performantes, avec un souci du détail et un engagement à offrir des expériences utilisateur exceptionnelles.</p>"
+                        },
+                        "ko": {
+                            "text": "<p><b>2년</b>의 실무 웹 개발 경력을 가진 MERN 스택 개발자로서 MongoDB, Express.js, React 및 Node.js에 능숙합니다. 저는 세부 사항에 대한 예리한 안목과 뛰어난 사용자 경험 제공에 대한 약속을 바탕으로 견고하고 확장 가능하며 고성능 웹 애플리케이션 구축을 전문으로 합니다.</p>"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "interests",
+            "component": "ArticleGrid",
+            "config": {
+                "format": "grid"
+            },
+            "locales": {
+                "en": {
+                    "title": "Personal **interests**"
+                },
+                "es": {
+                    "title": "Intereses **personales**"
+                },
+                "fr": {
+                    "title": "Intérêts **personnels** "
+                },
+                "ko": {
+                    "title": "개인 **관심사**"
+                }
+            },
+            "items": [
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-laptop-code",
+                        "faColors": null
+                    },
+                    "value": null,
+                    "locales": {
+                        "en": {
+                            "title": "Solving Problems with Code",
+                            "info": "Developing innovative and scalable web applications using the MERN stack to address real-world challenges."
+                        },
+                        "es": {
+                            "title": "Tocar la guitarra",
+                            "info": "Explorando diferentes géneros y mejorando mis habilidades."
+                        },
+                        "fr": {
+                            "title": "Jouer de la guitare",
+                            "info": "Explorer différents genres et améliorer mes compétences."
+                        },
+                        "ko": {
+                            "title": "기타 연주",
+                            "info": "다양한 장르를 탐험하고 기술을 향상시키기."
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-code",
+                        "faColors": null
+                    },
+                    "value": null,
+                    "locales": {
+                        "en": {
+                            "title": "Web Development & Technology",
+                            "info": "Passionate about building web applications using the MERN stack and exploring new technologies in the digital landscape."
+                        },
+                        "es": {
+                            "title": "Desarrollo Web y Tecnología",
+                            "info": "Apasionado por construir aplicaciones web utilizando el stack MERN y explorar nuevas tecnologías en el panorama digital."
+                        },
+                        "fr": {
+                            "title": "Développement Web & Technologie",
+                            "info": "Passionné par la création d'applications web avec la stack MERN et l'exploration de nouvelles technologies dans le paysage numérique."
+                        },
+                        "ko": {
+                            "title": "웹 개발 및 기술",
+                            "info": "MERN 스택을 사용하여 웹 애플리케이션을 구축하고 디지털 환경의 새로운 기술을 탐구하는 데 열정적입니다."
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-paint-brush",
+                        "faColors": null
+                    },
+                    "value": null,
+                    "locales": {
+                        "en": {
+                            "title": "Illustration",
+                            "info": "Practicing digital art and exploring new styles."
+                        },
+                        "es": {
+                            "title": "Ilustración",
+                            "info": "Practicando arte digital y explorando nuevos estilos."
+                        },
+                        "fr": {
+                            "title": "Illustration",
+                            "info": "Pratiquer l'art numérique et explorer de nouveaux styles."
+                        },
+                        "ko": {
+                            "title": "일러스트레이션",
+                            "info": "디지털 아트를 연습하고 새로운 스타일을 탐험하기."
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-palette",
+                        "faColors": null
+                    },
+                    "value": null,
+                    "locales": {
+                        "en": {
+                            "title": "Design and User Experience",
+                            "info": "Appreciating clean design principles and the creation of intuitive and engaging user experiences in web applications."
+                        },
+                        "es": {
+                            "title": "Diseño y Experiencia del Usuario",
+                            "info": "Apreciando los principios de diseño limpio y la creación de experiencias de usuario intuitivas y atractivas en aplicaciones web."
+                        },
+                        "fr": {
+                            "title": "Design et Expérience Utilisateur",
+                            "info": "Apprécier les principes de conception épurée et la création d'expériences utilisateur intuitives et engageantes dans les applications web."
+                        },
+                        "ko": {
+                            "title": "디자인 및 사용자 경험",
+                            "info": "웹 애플리케이션에서 깔끔한 디자인 원칙과 직관적이고 매력적인 사용자 경험의 창조를 중요하게 생각합니다."
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-rocket",
+                        "faColors": null
+                    },
+                    "value": null,
+                    "locales": {
+                        "en": {
+                            "title": "Continuous Learning and Growth",
+                            "info": "Driven by a desire to expand my skillset in web development and consistently seek opportunities for professional advancement."
+                        },
+                        "es": {
+                            "title": "Aprendizaje y Crecimiento Continuo",
+                            "info": "Impulsado por el deseo de expandir mis habilidades en el desarrollo web y buscar constantemente oportunidades para el avance profesional."
+                        },
+                        "fr": {
+                            "title": "Apprentissage Continu et Croissance",
+                            "info": "Animé par le désir de développer mes compétences en développement web et de rechercher constamment des opportunités d'avancement professionnel."
+                        },
+                        "ko": {
+                            "title": "지속적인 학습과 성장",
+                            "info": "웹 개발 분야에서 기술을 확장하고 전문적인 발전을 위한 기회를 꾸준히 모색하고자 하는 의욕이 넘칩니다."
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-puzzle-piece",
+                        "faColors": null
+                    },
+                    "value": null,
+                    "locales": {
+                        "en": {
+                            "title": "Problem Solving and Logical Thinking",
+                            "info": "Enjoying the process of analyzing complex problems and developing logical, efficient solutions in the realm of web development."
+                        },
+                        "es": {
+                            "title": "Resolución de Problemas y Pensamiento Lógico",
+                            "info": "Disfrutando el proceso de analizar problemas complejos y desarrollar soluciones lógicas y eficientes en el ámbito del desarrollo web."
+                        },
+                        "fr": {
+                            "title": "Résolution de Problèmes et Pensée Logique",
+                            "info": "Apprécier le processus d'analyse de problèmes complexes et de développement de solutions logiques et efficaces dans le domaine du développement web."
+                        },
+                        "ko": {
+                            "title": "문제 해결 및 논리적 사고",
+                            "info": "웹 개발 영역에서 복잡한 문제를 분석하고 논리적이고 효율적인 해결책을 개발하는 과정을 즐깁니다."
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

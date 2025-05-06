@@ -1,0 +1,401 @@
+{
+    "locales": {
+        "en": {
+            "title": "Portfolio",
+            "title_long_prefix": "Take a look at",
+            "title_long": "My **Portfolio**"
+        },
+        "es": {
+            "title": "Portafolio",
+            "title_long_prefix": "Explora",
+            "title_long": "Mi **Portafolio**"
+        },
+        "fr": {
+            "title": "Portfolio",
+            "title_long_prefix": "Découvrez",
+            "title_long": "Mon **Portfolio**"
+        },
+        "ko": {
+            "title": "포트폴리오",
+            "title_long_prefix": "이것은 내",
+            "title_long": "**포트폴리오**입니다"
+        }
+    },
+    "articles": [
+        {
+            "id": "portfolio",
+            "component": "ArticlePortfolio",
+            "config": {},
+            "locales": {},
+            "categories": [
+                {
+                    "id": "apps",
+                    "locales": {
+                        "en": {
+                            "singular": "App",
+                            "plural": "Apps"
+                        },
+                        "es": {
+                            "singular": "App",
+                            "plural": "Apps"
+                        },
+                        "fr": {
+                            "singular": "App",
+                            "plural": "Apps"
+                        },
+                        "ko": {
+                            "singular": "앱",
+                            "plural": "앱들"
+                        }
+                    }
+                },
+                {
+                    "id": "websites",
+                    "locales": {
+                        "en": {
+                            "singular": "Website",
+                            "plural": "Web"
+                        },
+                        "es": {
+                            "singular": "Sitio web",
+                            "plural": "Web"
+                        },
+                        "fr": {
+                            "singular": "Site web",
+                            "plural": "Web"
+                        },
+                        "ko": {
+                            "singular": "웹사이트",
+                            "plural": "웹"
+                        }
+                    }
+                },
+                {
+                    "id": "utilities",
+                    "locales": {
+                        "en": {
+                            "singular": "Utility",
+                            "plural": "Utilities"
+                        },
+                        "es": {
+                            "singular": "Utilidad",
+                            "plural": "Utilidades"
+                        },
+                        "fr": {
+                            "singular": "Utilitaire",
+                            "plural": "Utilitaires"
+                        },
+                        "ko": {
+                            "singular": "유틸리티",
+                            "plural": "유틸리티들"
+                        }
+                    }
+                }
+            ],
+            "items": [
+               
+                {
+                    "categoryId": "apps",
+                    "icon": {
+                        "img": "images/pictures/scorepilot.png",
+                        "fa": "",
+                        "faColors": {
+                            "bg": null,
+                            "fill": null
+                        }
+                    },
+                    "links": [
+                        {
+                            "faIcon": "fa-brands fa-github",
+                            "href": "https://github.com/JeremiaXavier/ScorePilot-Desktop"
+                        }
+                    ],
+                    "media": {
+                        "screenshots": {
+                            "aspectRatio": "16:9",
+                            "images": [
+                                "images/pictures/score1.png",
+                                "images/pictures/score2.png",
+                                "images/pictures/score3.png",
+                                "images/pictures/score4.png"
+                            ]
+                        }
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "ScorePilot",
+                            "text": "ScorePilot is a secure desktop application built with the <b>Electron</b> framework for conducting online examinations. It features robust anti-malpractice measures with instant actions, supports both MCQ and paragraph-based questions with time limits.",
+                            "tags": [
+                                "Electron",
+                                "Desktop App",
+                                "Online Examination",
+                                "Anti-Malpractice",
+                                "Assessment"
+                            ]
+                        },
+                        "es": {
+                            "title": "ScorePilot",
+                            "text": "ScorePilot es una aplicación de escritorio segura, construida con el framework <b>Electron</b> para la realización de exámenes en línea. Cuenta con sólidas medidas anti-trampas con acciones instantáneas, y admite preguntas de opción múltiple y de párrafo con límite de tiempo.",
+                            "tags": [
+                                "Electron",
+                                "Aplicación de Escritorio",
+                                "Examen en Línea",
+                                "Anti-Trampas",
+                                "Evaluación"
+                            ]
+                        },
+                        "fr": {
+                            "title": "ScorePilot",
+                            "text": "ScorePilot est une application de bureau sécurisée, construite avec le framework <b>Electron</b> pour la conduite d'examens en ligne. Elle dispose de mesures anti-fraude robustes avec des actions instantanées, et prend en charge les questions à choix multiples et les questions de type paragraphe avec une limite de temps.",
+                            "tags": [
+                                "Electron",
+                                "Application Bureau",
+                                "Examen en Ligne",
+                                "Anti-Fraude",
+                                "Évaluation"
+                            ]
+                        },
+                        "ko": {
+                            "title": "ScorePilot",
+                            "text": "ScorePilot은 온라인 시험 진행을 위해 <b>Electron</b> 프레임워크로 구축된 안전한 데스크톱 애플리케이션입니다. 즉각적인 조치가 가능한 강력한 부정행위 방지 기능이 있으며, 시간 제한이 있는 객관식 및 서술형 질문을 모두 지원합니다.",
+                            "tags": [
+                                "Electron",
+                                "데스크톱 앱",
+                                "온라인 시험",
+                                "부정행위 방지",
+                                "평가"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "categoryId": "websites",
+                    "icon": {
+                        "img": "images/pictures/kindlebase.png",
+                        "fa": "",
+                        "faColors": {
+                            "bg": null,
+                            "fill": null
+                        }
+                    },
+                    "links": [
+                        {
+                            "faIcon": "fa-brands fa-github",
+                            "href": "https://github.com/JeremiaXavier/Kindlebase"
+                        },
+                        {
+                            "faIcon": "fa-solid fa-link",
+                            "href": "https://kindlebase-jeremiaxavier.web.app"
+                        }
+                    ],
+                    "media": {
+                        "screenshots": {
+                            "aspectRatio": "16:9",
+                            "images": [
+                                "images/pictures/kindlebase1.png",
+                                "images/pictures/kindlebase2.png",
+                                "images/pictures/kindlebase3.png"
+                            ]
+                        }
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Kindlebase",
+                            "text": "Kindlebase is a versatile platform built with <b>React.js & Typescript</b>, designed to help users manage their daily lives with features including an event scheduler, task management, a finance tracker, and a built-in messaging system.",
+                            "tags": [
+                                "React.js",
+                                "Productivity",
+                                "Event Scheduling",
+                                "Task Management",
+                                "Finance",
+                                "Messaging"
+                            ]
+                        },
+                        "es": {
+                            "title": "Kindlebase",
+                            "text": "Kindlebase es una plataforma versátil construida con <b>React.js & Typescript</b>, diseñada para ayudar a los usuarios a gestionar su vida diaria con funciones que incluyen un programador de eventos, gestión de tareas, un rastreador de finanzas y un sistema de mensajería integrado.",
+                            "tags": [
+                                "React.js",
+                                "Productividad",
+                                "Programación de Eventos",
+                                "Gestión de Tareas",
+                                "Finanzas",
+                                "Mensajería"
+                            ]
+                        },
+                        "fr": {
+                            "title": "Kindlebase",
+                            "text": "Kindlebase est une plateforme polyvalente construite avec <b>React.js & Typescript</b>, conçue pour aider les utilisateurs à gérer leur vie quotidienne grâce à des fonctionnalités telles qu'un agenda d'événements, une gestion des tâches, un suivi financier et un système de messagerie intégré.",
+                            "tags": [
+                                "React.js",
+                                "Productivité",
+                                "Planification d'Événements",
+                                "Gestion des Tâches",
+                                "Finance",
+                                "Messagerie"
+                            ]
+                        },
+                        "ko": {
+                            "title": "Kindlebase",
+                            "text": "Kindlebase는 <b>React.js & Typescript</b>로 구축된 다목적 플랫폼으로, 이벤트 스케줄러, 작업 관리, 재정 추적기 및 내장 메시징 시스템을 포함한 기능을 통해 사용자의 일상 생활 관리를 돕도록 설계되었습니다.",
+                            "tags": [
+                                "React.js",
+                                "생산성",
+                                "이벤트 일정",
+                                "작업 관리",
+                                "금융",
+                                "메시징"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "categoryId": "websites",
+                    "icon": {
+                        "img": "images/pictures/worker.png",
+                        "fa": "",
+                        "faColors": {
+                            "bg": null,
+                            "fill": null
+                        }
+                    },
+                    "links": [
+                        {
+                            "faIcon": "fa-brands fa-github",
+                            "href": "https://github.com/JeremiaXavier/workerbay"
+                        }
+                    ],
+                    "media": {
+                        "screenshots": {
+                            "aspectRatio": "16:9",
+                            "images": [
+                                "images/pictures/worker1.png",
+                                "images/pictures/worker2.png"                                
+                            ]
+                        }
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Workerbay",
+                            "text": "Workerbay is a job portal platform, similar to LinkedIn, built with <b>PHP</b>. It enables recruiters to post job openings and allows job seekers to browse and apply for them.",
+                            "tags": [
+                                "PHP",
+                                "Job Portal",
+                                "Recruitment",
+                                "Career",
+                                "Networking"
+                            ]
+                        },
+                        "es": {
+                            "title": "Workerbay",
+                            "text": "Workerbay es una plataforma de portal de empleo, similar a LinkedIn, construida con <b>php</b>. Permite a los reclutadores publicar ofertas de trabajo y a los solicitantes de empleo buscar y postularse a ellas.",
+                            "tags": [
+                                "PHP",
+                                "Portal de Empleo",
+                                "Reclutamiento",
+                                "Carrera",
+                                "Networking"
+                            ]
+                        },
+                        "fr": {
+                            "title": "Workerbay",
+                            "text": "Workerbay est une plateforme de portail d'emploi, similaire à LinkedIn, construite avec <b>php</b>. Elle permet aux recruteurs de publier des offres d'emploi et aux demandeurs d'emploi de les consulter et d'y postuler.",
+                            "tags": [
+                                "PHP",
+                                "Portail d'Emploi",
+                                "Recrutement",
+                                "Carrière",
+                                "Réseautage"
+                            ]
+                        },
+                        "ko": {
+                            "title": "Workerbay",
+                            "text": "Workerbay는 <b>php</b>로 구축된 LinkedIn과 유사한 채용 포털 플랫폼입니다. 채용 담당자는 채용 공고를 게시하고 구직자는 이를 검색하여 지원할 수 있습니다.",
+                            "tags": [
+                                "PHP",
+                                "채용 포털",
+                                "채용",
+                                "경력",
+                                "네트워킹"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "categoryId": "websites",
+                    "icon": {
+                        "img": "images/pictures/edupilot.png",
+                        "fa": "",
+                        "faColors": {
+                            "bg": null,
+                            "fill": null
+                        }
+                    },
+                    "links": [
+                        {
+                            "faIcon": "fa-brands fa-github",
+                            "href": "https://github.com/JeremiaXavier/Edupilot"
+                        }
+                    ],
+                    "media": {
+                        "screenshots": {
+                            "aspectRatio": "16:9",
+                            "images": [
+                                "images/pictures/edupilot1.png",
+                                "images/pictures/edupilot2.png",
+                                "images/pictures/edupilot3.png"
+                            ]
+                        }
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Edupilot",
+                            "text": "Edupilot is a classroom management application, similar to Google Classroom, built to streamline educational workflows. It integrates seamlessly with ScorePilot for online examinations, offering features like assignment management, announcements, resource sharing, and progress tracking.",
+                            "tags": [
+                                "Classroom Management",
+                                "Education",
+                                "Productivity",
+                                "Collaboration",
+                                "Integration"
+                            ]
+                        },
+                        "es": {
+                            "title": "Edupilot",
+                            "text": "Edupilot es una aplicación de gestión de aulas, similar a Google Classroom, diseñada para optimizar los flujos de trabajo educativos. Se integra perfectamente con ScorePilot para exámenes en línea, ofreciendo funciones como gestión de tareas, anuncios, intercambio de recursos y seguimiento del progreso.",
+                            "tags": [
+                                "Gestión de Aulas",
+                                "Educación",
+                                "Productividad",
+                                "Colaboración",
+                                "Integración"
+                            ]
+                        },
+                        "fr": {
+                            "title": "Edupilot",
+                            "text": "Edupilot est une application de gestion de classe, similaire à Google Classroom, conçue pour rationaliser les flux de travail éducatifs. Elle s'intègre de manière transparente avec ScorePilot pour les examens en ligne, offrant des fonctionnalités telles que la gestion des devoirs, les annonces, le partage de ressources et le suivi des progrès.",
+                            "tags": [
+                                "Gestion de Classe",
+                                "Éducation",
+                                "Productivité",
+                                "Collaboration",
+                                "Intégration"
+                            ]
+                        },
+                        "ko": {
+                            "title": "Edupilot",
+                            "text": "Edupilot은 Google Classroom과 유사한 교실 관리 애플리케이션으로, 교육 워크플로를 간소화하기 위해 구축되었습니다. 온라인 시험을 위해 ScorePilot과 원활하게 통합되어 과제 관리, 공지 사항, 자료 공유 및 진행 상황 추적과 같은 기능을 제공합니다.",
+                            "tags": [
+                                "교실 관리",
+                                "교육",
+                                "생산성",
+                                "협업",
+                                "통합"
+                            ]
+                        }
+                    }
+                }
+                
+            ]
+        }
+    ]
+}
