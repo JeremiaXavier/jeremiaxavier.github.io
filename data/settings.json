@@ -13,7 +13,7 @@
         "name": "Jeremia Xavier",
         "stylizedName": "<strong>Jeremia **Xavier**</strong>",
         "logoUrl": "images/svg/logo.svg",
-        "profilePictureUrl": "images/pictures/avatar.jpg",
+        "profilePictureUrl": "images/pictures/avatar.webp",
 
         "locales": {
             "en": {"role": "Web Developer"},

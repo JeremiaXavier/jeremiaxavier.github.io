@@ -35,7 +35,7 @@
             "items": [
                 {
                     "icon": {
-                        "img": "images/pictures/rabbitsquare.jpg",
+                        "img": "images/pictures/rabbitsquare.webp",
                         "fa": "",
                         "faColors": {"bg": null, "fill": null}
                     },

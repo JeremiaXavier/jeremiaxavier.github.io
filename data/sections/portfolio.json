@@ -97,7 +97,7 @@
                 {
                     "categoryId": "apps",
                     "icon": {
-                        "img": "images/pictures/scorepilot.png",
+                        "img": "images/pictures/scorepilot.webp",
                         "fa": "",
                         "faColors": {
                             "bg": null,
@@ -114,10 +114,10 @@
                         "screenshots": {
                             "aspectRatio": "16:9",
                             "images": [
-                                "images/pictures/score1.png",
-                                "images/pictures/score2.png",
-                                "images/pictures/score3.png",
-                                "images/pictures/score4.png"
+                                "images/pictures/score1.webp",
+                                "images/pictures/score2.webp",
+                                "images/pictures/score3.webp",
+                                "images/pictures/score4.webp"
                             ]
                         }
                     },
@@ -171,7 +171,7 @@
                 {
                     "categoryId": "websites",
                     "icon": {
-                        "img": "images/pictures/kindlebase.png",
+                        "img": "images/pictures/kindlebase.webp",
                         "fa": "",
                         "faColors": {
                             "bg": null,
@@ -192,9 +192,9 @@
                         "screenshots": {
                             "aspectRatio": "16:9",
                             "images": [
-                                "images/pictures/kindlebase1.png",
-                                "images/pictures/kindlebase2.png",
-                                "images/pictures/kindlebase3.png"
+                                "images/pictures/kindlebase1.webp",
+                                "images/pictures/kindlebase2.webp",
+                                "images/pictures/kindlebase3.webp"
                             ]
                         }
                     },
@@ -252,7 +252,7 @@
                 {
                     "categoryId": "websites",
                     "icon": {
-                        "img": "images/pictures/worker.png",
+                        "img": "images/pictures/worker.webp",
                         "fa": "",
                         "faColors": {
                             "bg": null,
@@ -269,8 +269,8 @@
                         "screenshots": {
                             "aspectRatio": "16:9",
                             "images": [
-                                "images/pictures/worker1.png",
-                                "images/pictures/worker2.png"                                
+                                "images/pictures/worker1.webp",
+                                "images/pictures/worker2.webp"                                
                             ]
                         }
                     },
@@ -324,7 +324,7 @@
                 {
                     "categoryId": "websites",
                     "icon": {
-                        "img": "images/pictures/edupilot.png",
+                        "img": "images/pictures/edupilot.webp",
                         "fa": "",
                         "faColors": {
                             "bg": null,
@@ -341,9 +341,9 @@
                         "screenshots": {
                             "aspectRatio": "16:9",
                             "images": [
-                                "images/pictures/edupilot1.png",
-                                "images/pictures/edupilot2.png",
-                                "images/pictures/edupilot3.png"
+                                "images/pictures/edupilot1.webp",
+                                "images/pictures/edupilot2.webp",
+                                "images/pictures/edupilot3.webp"
                             ]
                         }
                     },
