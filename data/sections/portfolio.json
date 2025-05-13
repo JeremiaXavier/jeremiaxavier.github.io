@@ -169,6 +169,87 @@
                     }
                 },
                 {
+                    "categoryId": "apps",
+                    "icon": {
+                        "img": "images/pictures/kindlebase.webp",
+                        "fa": "",
+                        "faColors": {
+                            "bg": null,
+                            "fill": null
+                        }
+                    },
+                    "links": [
+                        {
+                            "faIcon": "fa-brands fa-github",
+                            "href": "https://github.com/JeremiaXavier/Kindlebase"
+                        },
+                        {
+                            "faIcon": "fa-solid fa-link",
+                            "href": "https://kindlebase.web.app"
+                        }
+                    ],
+                    "media": {
+                        "screenshots": {
+                            "aspectRatio": "16:9",
+                            "images": [
+                                "images/pictures/kindlebase1.webp",
+                                "images/pictures/kindlebase2.webp",
+                                "images/pictures/kindlebase3.webp"
+                            ]
+                        }
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Kindlebase Desktop",
+                            "text": "Kindlebase Desktop is a versatile platform built with <b>React.js,Typescript and Electron</b>, designed to help users manage their daily lives with features including an event scheduler, task management, a finance tracker, and a built-in messaging system.",
+                            "tags": [
+                                "Electron",
+                                "Productivity",
+                                "Event Scheduling",
+                                "Task Management",
+                                "Finance",
+                                "Messaging"
+                            ]
+                        },
+                        "es": {
+                            "title": "Kindlebase Desktop",
+                            "text": "Kindlebase Desktop es una plataforma versátil construida con <b>React.js,Typescript and Electron</b>, diseñada para ayudar a los usuarios a gestionar su vida diaria con funciones que incluyen un programador de eventos, gestión de tareas, un rastreador de finanzas y un sistema de mensajería integrado.",
+                            "tags": [
+                                "React.js",
+                                "Productividad",
+                                "Programación de Eventos",
+                                "Gestión de Tareas",
+                                "Finanzas",
+                                "Mensajería"
+                            ]
+                        },
+                        "fr": {
+                            "title": "Kindlebase Desktop",
+                            "text": "Kindlebase Desktop est une plateforme polyvalente construite avec <b>React.js,Typescript and Electron</b>, conçue pour aider les utilisateurs à gérer leur vie quotidienne grâce à des fonctionnalités telles qu'un agenda d'événements, une gestion des tâches, un suivi financier et un système de messagerie intégré.",
+                            "tags": [
+                                "React.js",
+                                "Productivité",
+                                "Planification d'Événements",
+                                "Gestion des Tâches",
+                                "Finance",
+                                "Messagerie"
+                            ]
+                        },
+                        "ko": {
+                            "title": "Kindlebase Desktop",
+                            "text": "Kindlebase Desktop는 <b>React.js,Typescript and Electron</b>로 구축된 다목적 플랫폼으로, 이벤트 스케줄러, 작업 관리, 재정 추적기 및 내장 메시징 시스템을 포함한 기능을 통해 사용자의 일상 생활 관리를 돕도록 설계되었습니다.",
+                            "tags": [
+                                "React.js",
+                                "생산성",
+                                "이벤트 일정",
+                                "작업 관리",
+                                "금융",
+                                "메시징"
+                            ]
+                        }
+                    }
+                },
+                {
                     "categoryId": "websites",
                     "icon": {
                         "img": "images/pictures/kindlebase.webp",
