@@ -220,6 +220,38 @@
             "items": [
                 {
                     "dates": {
+                        "start": "07/01/2025",
+                        "end": null
+                    },
+                    "links": [{
+                            "string": "more_info",
+                            "href": "https://jeremiaxavier.web.app/news/nicsa_website_launch_nirmala_college"
+                        }],
+                    "locales": {
+                        "en": {
+                            "title": "Launched New Website for **Nirmala Civil Service Academy**",
+                            "info": "Nirmala Civil Service Academy",
+                            "text": "Designed, developed, and launched a new, responsive website for Nirmala Civil Service Academy, enhancing their online presence and accessibility for prospective students."
+                        },
+                        "es": {
+                            "title": "Lanzamiento de nuevo sitio web para Nirmala Civil Service Academy",
+                            "info": "Nirmala Civil Service Academy",
+                            "text": "Diseñé, desarrollé y lancé un nuevo sitio web responsivo para Nirmala Civil Service Academy, mejorando su presencia en línea y accesibilidad para futuros estudiantes."
+                        },
+                        "fr": {
+                            "title": "Lancement d'un nouveau site web pour Nirmala Civil Service Academy",
+                            "info": "Nirmala Civil Service Academy",
+                            "text": "J'ai conçu, développé et lancé un nouveau site web réactif pour Nirmala Civil Service Academy, améliorant ainsi leur présence en ligne et leur accessibilité pour les futurs étudiants."
+                        },
+                        "ko": {
+                            "title": "Nirmala Civil Service Academy를 위한 새 웹사이트 론칭",
+                            "info": "Nirmala Civil Service Academy",
+                            "text": "Nirmala Civil Service Academy를 위해 새롭고 반응형 웹사이트를 설계, 개발 및 론칭하여 온라인 존재감과 예비 학생들을 위한 접근성을 향상시켰습니다."
+                        }
+                    }
+                },
+                {
+                    "dates": {
                         "start": "10/01/2024",
                         "end": null
                     },
@@ -315,7 +347,6 @@
                         }
                     }
                 }
-                
             ]
         }
     ]
