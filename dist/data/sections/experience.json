@@ -1,0 +1,77 @@
+{
+    "locales": {
+        "en": {
+            "title": "Experience",
+            "title_long_prefix": "Summary of my",
+            "title_long": "**Work** Experience"
+        },
+
+        "es": {
+            "title": "Experiencia",
+            "title_long_prefix": "Resumen de mi",
+            "title_long": "Experiencia **Laboral**"
+        },
+
+        "fr": {
+            "title": "Expérience",
+            "title_long_prefix": "Résumé de mon",
+            "title_long": "Parcours **Professionel**"
+        },
+
+        "ko": {
+            "title": "경험",
+            "title_long_prefix": "이것은 내",
+            "title_long": "**직업적** 경험"
+        }
+    },
+
+    "articles": [
+        {
+            "id": "work",
+            "component": "ArticleTimeline",
+            "config": {},
+            "locales": {},
+
+            "items": [
+                {
+                    "icon": {
+                        "img": "images/pictures/rabbitsquare.webp",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "dates": {
+                        "start": "05/01/2024",
+                        "end": "08/01/2024"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**Full-Stack** Developer Intern",
+                            "info": "Rabbitsquare",
+                            "text": "As a Full-Stack Developer Intern, I contributed to the development of a small ERP software for an academy. My responsibilities included building features for admission management, course fee handling, progress report generation, result publishing, and developing a customizable public website.",
+                            "tags": ["PHP", "MySQL", "Linux", "Bootstrap", "ERP Development", "Full-Stack"]
+                        },
+                        "es": {
+                            "title": "Desarrollador **Full-Stack** Interno",
+                            "info": "Rabbitsquare",
+                            "text": "Como Desarrollador Full-Stack Interno, contribuí al desarrollo de un pequeño software ERP para una academia. Mis responsabilidades incluyeron la creación de funcionalidades para la gestión de admisiones, el manejo de tarifas de cursos, la generación de informes de progreso, la publicación de resultados y el desarrollo de un sitio web público personalizable.",
+                            "tags": ["PHP", "MySQL", "Linux", "Bootstrap", "Desarrollo ERP", "Full-Stack"]
+                        },
+                        "fr": {
+                            "title": "Stagiaire Développeur **Full-Stack**",
+                            "info": "Rabbitsquare",
+                            "text": "En tant que Stagiaire Développeur Full-Stack, j'ai contribué au développement d'un petit logiciel ERP pour une académie. Mes responsabilités comprenaient la création de fonctionnalités pour la gestion des admissions, la gestion des frais de scolarité, la génération de rapports de progression, la publication des résultats et le développement d'un site web public personnalisable.",
+                            "tags": ["PHP", "MySQL", "Linux", "Bootstrap", "Développement ERP", "Full-Stack"]
+                        },
+                        "ko": {
+                            "title": "**풀 스택** 개발 인턴",
+                            "info": "Rabbitsquare",
+                            "text": "풀 스택 개발 인턴으로서 학원을 위한 소규모 ERP 소프트웨어 개발에 기여했습니다. 입학 관리, 수강료 처리, 성적표 생성, 결과 게시 및 사용자 정의 가능한 공개 웹사이트 개발 등의 기능을 구축하는 업무를 담당했습니다.",
+                            "tags": ["PHP", "MySQL", "Linux", "Bootstrap", "ERP 개발", "풀 스택"]
+                        }
+                    }
+                }
+                
+            ]
+        }
+    ]
+}
