@@ -35,6 +35,54 @@
             "items": [
                 {
                     "icon": {
+                        "img": "images/pictures/KTU.jpeg",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "dates": {
+                        "start": "07/07/2025",
+                        "end": "03/31/2027"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**Master** of Computer Application",
+                            "info": "APJKTU",
+                            "text": "<p>Pursuing  Master's degree focused on the advanced computer applications, including:</p> <ul><li>Software Development</li><li>Database Management</li><li>Web Technologies</li></ul> <p class='mt-3'>Gained a solid foundation in programming principles and practical application development.</p>",
+                            "tags": ["Software Development", "Database", "Web Technologies", "Programming"]
+                        },
+                        "es": {
+                            "title": "**Maestría** en Aplicaciones Informáticas",
+                            "info": "MGU",
+                            "text": "<p>Cursando una maestría enfocada en aplicaciones informáticas avanzadas, incluyendo:</p> <ul><li>Desarrollo de software</li><li>Gestión de bases de datos</li><li>Tecnologías web</li></ul> <p class='mt-3'>Adquirí una base sólida en principios de programación y desarrollo de aplicaciones prácticas.</p>",
+                            "tags": ["Desarrollo de Software", "Base de Datos", "Tecnologías Web", "Programación"]
+                        },
+                        "fr": {
+                            "title": "**Master** en applications informatiques",
+                            "info": "MGU",
+                            "text": "<p>Je poursuis une maîtrise axée sur les applications informatiques avancées, notamment :</p> <ul><li>Développement de logiciels</li><li>Gestion de bases de données</li><li>Technologies Web</li></ul> <p class='mt-3'>J'ai acquis une base solide en principes de programmation et en développement d'applications pratiques.</p>",
+                            "tags": ["Développement de Logiciels", "Base de Données", "Technologies Web", "Programmation"]
+                        },
+                        "ko": {
+                            "title": "**컴퓨터 응용 프로그램** 석사",
+                            "info": "MGU",
+                            "text": "<p>다음을 포함한 고급 컴퓨터 응용 분야에 중점을 둔 석사 학위를 취득 중입니다.</p> <ul><li>소프트웨어 개발</li><li>데이터베이스 관리</li><li>웹 기술</li></ul> <p class='mt-3'>프로그래밍 원칙과 실용적인 응용 프로그램 개발에 대한 탄탄한 기초를 쌓았습니다.</p>",
+                            "tags": ["소프트웨어 개발", "데이터베이스", "웹 기술", "프로그래밍"]
+                        }
+                    }
+                }
+
+                
+            ]
+        },
+        {
+            "id": "academic",
+            "component": "ArticleTimeline",
+            "config": {},
+            "locales": {},
+
+            "items": [
+                {
+                    "icon": {
                         "img": "images/pictures/MGU.webp",
                         "fa": "",
                         "faColors": {"bg": null, "fill": null}
