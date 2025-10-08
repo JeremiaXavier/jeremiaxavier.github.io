@@ -11,7 +11,7 @@
         "name": "Jeremia Xavier",
         "stylizedName": "<strong>Jeremia **Xavier**</strong>",
         "logoUrl": "images/svg/logo.svg",
-        "profilePictureUrl": "images/pictures/avatar.webp",
+        "profilePictureUrl": "images/pictures/logo-white.png",
         "locales": {
             "en": {
                 "role": "Software Developer"
@@ -83,7 +83,7 @@
     "emailjs": {
         "publicKey": "orcarZUmdnOM7wkX7",
         "serviceId": "service_07vue8w",
-        "templateId": "template_25bv2jt",
+        "templateId": "template_25bv2jt"
         
     }
 }
