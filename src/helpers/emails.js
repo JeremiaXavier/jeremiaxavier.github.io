@@ -46,7 +46,7 @@ export const useEmails = () => {
                 _status.config['templateId'],
                 params
             )
-            try {
+            /* try {
                 const replyParams = {
                     to_name: fromName, // Use the sender's name in the reply if you like
                     to_email: fromEmail,
@@ -65,7 +65,7 @@ export const useEmails = () => {
             } catch (replyError) {
                 console.error("Failed to send auto-reply:", replyError);
                 return true; // Contact email sent, but auto-reply failed (you might want to handle this differently)
-            }
+            } */
         } catch (error) {
             return false
         }
